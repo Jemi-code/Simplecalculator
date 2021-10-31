@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: wheat;
+}
+
+header{
+   text-align: center;
+   background-color: brown;
+   color: azure;
+   padding: 5%;
+   margin-bottom: 5%;
+}
+
+div{
+    margin: auto;
+}
+
+.body{
+    text-align: center;
+    width: 50%;
+}
+
+#screen{
+    border: 2px solid midnightblue;
+    background-color: white;
+    width: 60%;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+@media(max-width:800px){
+    .body{
+        width: 100%;
+    }
+
+    #screen{
+        width: 60%;
+    }
+
+    .buttons{
+        width: 70%;
+    }
+}
+
+#screen > p{
+    height: 30px;
+    padding: 5px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+}
+
+#history{
+    border-bottom: 2px solid midnightblue;
+}
+
+.buttons{
+    font-size: 0;
+    border: 2px solid rgb(48, 1, 1);
+    width: 60%;
+    border-radius: 10px;
+}
+
+button{
+    padding: 20px;
+    width: 25%;
+    background-color: rgb(175, 170, 170);
+    font-weight: bolder;
+}
+
+button:hover{
+    background-color: gray;
+}
+
+.del:hover{
+    background-color: rgb(99, 60, 60);
+}
+
+.clear:hover{
+    background-color: rgb(155, 20, 20);
+}
+
+.ans:hover{
+    background-color: green;
+}
+
+.del{
+    background-color: rgb(204, 108, 108);
+}
+
+.clear{
+    background-color: red;
+}
+
+.ans{
+    background-color: lightgreen;
+}
+
+.changeMode{
+    text-align: center;
+    margin-top: 30px;
+    border: 2px dotted gray;
+    width: 60%;
+    padding: 10px 0 10px 0;
+}
+
+@media(max-width:800px){
+    .changeMode{
+        width: 95%;
+    }
+}
+
+.changeMode > button{
+    width: 15%;
+}
+
+.changeMode > h2{
+    margin: 10px;
+}
+
+footer{
+    background-color: brown;
+    padding: 30px;
+    margin-top: 10%; 
+    color: white;
+}
